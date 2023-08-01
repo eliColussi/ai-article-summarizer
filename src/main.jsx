@@ -5,6 +5,10 @@ import { Provider } from "react-redux";
 import App from "./App";
 import { store } from "./services/store";
 
+// // Load environment variables from .env file
+// const dotenv = require("dotenv");
+// dotenv.config();
+
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <Provider store={store}>
